@@ -1,0 +1,78 @@
+.logo {
+	display: block;
+	float: left;
+	margin: 5px 0;
+	height: 100px;
+}
+
+.profile{
+    width:500px;
+    float: left;
+}
+
+input[type=text], input[type=date], input[type=password], input[type=email] {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+
+textarea {
+  width: 90%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid grey;
+  resize: none;
+  margin: 20px 0px;
+}
+
+select {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin: 20px 0px;
+}
+
+video {
+  max-width: 60%;
+  height: auto;
+}
+
+.country{
+    width:19%;
+    float:left;
+}
+.phone{
+    width:78%;
+    float:left;
+}
+ button[type=submit] {
+  background-color: lightgray;
+  border: none;
+  color: darkgrey;
+  padding: 6px 20px;
+  text-decoration: none;
+  margin: 20px 0px;
+
+}
+
+small{
+    margin: 0px 93px 0px 0px;
+    color:gray;
+    font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td, tr {
+    border: 1px solid brown;
+    text-align: center;
+}
+
+th{
+    background-color: darkslategrey;
+    text-decoration-color: white;
+    color: white;
+}
